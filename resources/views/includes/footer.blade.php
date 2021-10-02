@@ -1,7 +1,7 @@
 
 <footer>
   <div class="footer-info">
-    <div class="footer-section">
+    <div>
       <h2>Over Ons</h2>
       <ul>
         <li>Wie wij zijn</li>
@@ -9,7 +9,7 @@
         <li>Handleidingen</li>
       </ul>
     </div>
-    <div class="footer-section">
+    <div>
       <h2>Contactgegevens</h2>
       <ul>
         <li>Tel: 088 239 1872</li>
@@ -17,7 +17,7 @@
         <li>4823 AB Breda</li>
       </ul>
     </div>
-    <div class="footer-section">
+    <div>
       <h2>Social Links</h2>
       <ul>
         <li>Linkedin</li>
