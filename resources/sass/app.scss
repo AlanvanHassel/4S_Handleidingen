@@ -31,7 +31,7 @@
     content: "/\00a0";
 }
 
-.footer{
+.footer {
     position: fixed;
     bottom: 0px;
     width: 100%;;
@@ -40,27 +40,43 @@
     padding: 3px 0;
 }
 
-footer *{
+footer * {
     margin: 0;
     padding: 0;
 }
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-footer a{
+footer a {
     color: white;
 }
 
-.col-md-8{
+.col-md-8 {
     margin: 0 auto;
 }
 
-.jumbotron .container a h1{
+.jumbotron .container a h1 {
     font-weight: 1000;
     font-size: 3rem;
 }
-.jumbotron .container p{
+.jumbotron .container p {
     font-size: 1rem;
+}
+
+.brands {
+    background-color: #4d90fe;
+    color: white;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.brands a {
+    color: white;
+}
+
+.brands li {
+    margin-bottom: 1rem;
 }

@@ -24,7 +24,9 @@
             @if ( isset($_GET['q']) )
                 @include('includes.search_results')
             @else
-                @yield('content')
+                <div class="brands">
+                    @yield('content')
+                </div>
             @endif
 
             <ul class="breadcrumb">
