@@ -30,3 +30,30 @@
     color: #ccc;
     content: "/\00a0";
 }
+
+.container > .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;;
+    background-color: #343a40 !important;
+    color: white;
+    padding: 3px 0;
+}
+
+footer *{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a{
+    color: white;
+}
