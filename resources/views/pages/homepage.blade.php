@@ -1,13 +1,15 @@
 @extends('layouts.default')
 
+
 @section('introduction_text')
-    <p>{{ __('introduction_texts.homepage_line_1') }}</p>
-    <p>{{ __('introduction_texts.homepage_line_2') }}</p>
-    <p>{{ __('introduction_texts.homepage_line_3') }}</p>
+<p>{{ __('introduction_texts.homepage_line_1') }}</p>
+<p>{{ __('introduction_texts.homepage_line_2') }}</p>
+<p>{{ __('introduction_texts.homepage_line_3') }}</p>
 @endsection
 
-@section('content')
 
+@section('content')
+    
     <h1>
         @section('title')
             {{ __('misc.all_brands') }}
@@ -22,7 +24,10 @@
     ?>
 
     <div class="container">
+        {{ __('misc.programmer_name') }}
+
         <!-- Example row of columns -->
+
         <div class="row">
 
             @foreach($brands->chunk($chunk_size) as $chunk)
@@ -53,7 +58,6 @@
                 unset($header_first_letter);
                 ?>
             @endforeach
-
         </div>
 
     </div>
