@@ -1,5 +1,32 @@
 
 <footer>
+  <div class="footer-info">
+    <div class="footer-section">
+      <h2>Over Ons</h2>
+      <ul>
+        <li>Wie wij zijn</li>
+        <li>Waar het begon</li>
+        <li>Handleidingen</li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h2>Contactgegevens</h2>
+      <ul>
+        <li>Tel: 088 239 1872</li>
+        <li>Instructieweg 234</li>
+        <li>4823 AB Breda</li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h2>Social Links</h2>
+      <ul>
+        <li>Linkedin</li>
+        <li>Facebook</li>
+        <li>Twitter</li>
+      </ul>
+    </div>
+    
+  </div>
 	© {{ __('misc.copyright') }}
 </footer>
 
